@@ -68,7 +68,7 @@ header {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -76,6 +76,36 @@ header {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
   }
+
+  @media(max-width: 946px) {
+    header{
+      height: 73vh;
+      min-height: 21rem;
+    }
+  }
+
+  @media(max-width: 560px) {
+    header{
+      height: 63vh;
+      min-height: 21rem;
+    }
+  }
+
+  @media(max-width: 500px) {
+    header{
+      height: 55vh;
+      min-height: 20rem;
+    }
+  }
+
+  @media(max-width: 500px) {
+    header{
+      height: 55vh;
+      min-height: 20rem;
+    }
+  }
+
+
   
   header .container {
     position: relative;
